@@ -45,6 +45,7 @@ pip install rdkit pandas seaborn numpy
 ```
 
 📈 Next Steps
+
 [ ] Part 3: Feature Engineering using PaDEL-Descriptor (Molecular Fingerprints).
 
 [ ] Part 4: Regression Model Building (Comparing Random Forest, SVM, etc.).

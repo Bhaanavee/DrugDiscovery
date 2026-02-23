@@ -17,8 +17,6 @@ In this phase, we:
 ## 📊 Phase 2: Exploratory Data Analysis (EDA)
 Using **RDKit**, we calculated molecular descriptors to evaluate the "drug-likeness" of the compounds based on **Lipinski's Rule of Five**:
 
-![Lipinski Rule of 5](https://www.liebertpub.com/cms/10.1089/cmb.2019.0323/asset/images/cmb.2019.0323_figure1.jpg)
-
 * **Molecular Weight (MW):** < 500 Da
 * **Octanol-water partition coefficient (LogP):** < 5
 * **Hydrogen Bond Donors:** < 5
@@ -29,7 +27,6 @@ To prepare the data for statistical analysis, we performed:
 * **Normalization:** Capping $IC_{50}$ values to 100,000,000 nM to handle outliers.
 * **pIC50 Conversion:** Transforming $IC_{50}$ to a negative logarithmic scale ($pIC_{50}$) for a more uniform distribution.
 
-[Image of distribution plot of pIC50 values]
 
 ## 🛠️ Tools & Libraries
 * **RDKit:** For cheminformatics and molecular descriptor calculation.

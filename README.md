@@ -17,7 +17,7 @@ In this phase, we:
 ## 📊 Phase 2: Exploratory Data Analysis (EDA)
 Using **RDKit**, we calculated molecular descriptors to evaluate the "drug-likeness" of the compounds based on **Lipinski's Rule of Five**:
 
-[Image of Lipinski's Rule of Five criteria]
+![Lipinski Rule of 5](https://www.liebertpub.com/cms/10.1089/cmb.2019.0323/asset/images/cmb.2019.0323_figure1.jpg)
 
 * **Molecular Weight (MW):** < 500 Da
 * **Octanol-water partition coefficient (LogP):** < 5
